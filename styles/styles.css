@@ -1,3 +1,9 @@
+:root {
+    --padding: 1em;
+    --margin: 1em;
+    --margin-top: 1em;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -19,9 +25,9 @@ img {
 
 aside {
     width: 20em;
-    margin: 1em;
+    margin: var(--margin);
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
+    padding: var(--padding);
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -33,7 +39,7 @@ aside img {
 }
 
 footer {
-    margin-top: 1em;
+    margin-top: var(--margin-top);
     border-top: 1px solid #000;
     text-align: center;
 }
