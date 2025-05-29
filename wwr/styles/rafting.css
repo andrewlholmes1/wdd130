@@ -125,3 +125,16 @@ h1 {
     flex-grow: 0;
     object-fit: contain;
 }
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 16px;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: horizontal;
+    align-items: right;
+}
