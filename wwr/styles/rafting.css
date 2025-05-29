@@ -135,6 +135,6 @@ footer {
 
 .footer-flex-container {
     display: flex;
-    justify-content: horizontal;
+    justify-content: space-between;
     align-items: right;
 }
