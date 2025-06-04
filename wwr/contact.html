@@ -78,6 +78,37 @@
                 </tr>
             </tbody>
         </table>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname"></input>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail"></input>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Ask us anything</legend>
+                <div class="form-item column1">
+                    <label for="question">Do you have any Questions?</label>
+                    <select id="question" name="question">
+                        <option value="General Inquiry">General Inquiry</option>
+                        <option value="Resrvation Question">Reservation Question</option>
+                        <option value="Website Suggestion">Website Suggestion</option>
+                    </select>
+                </div>
+                <label for="feedback">Ask your Question:</label>
+                <textarea id="feedback" name="feedback" rows="4"></textarea>
+                <div class="form-item column1">
+                    <label for="news">Do you want to join our newsletter?</label>
+                    <input type="checkbox" id="news" name="news">
+                </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
     </main>
     <footer class="footer-flex-container">
         <p>© |2025| Holmes Rafting Adventure, Andrew Holmes</p>
